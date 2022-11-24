@@ -1,0 +1,151 @@
+body{
+    background-color:aqua;
+}
+
+
+header h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    display: inline-block;
+    border: solid;
+    width: 1400px;
+    font-size: 1.5rem;
+    margin-left: 0.3cm;
+    margin-right: 0.3cm;
+    background-color: white;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    
+    justify-content: center;
+}
+
+header nav ul li {
+    padding: 0.5rem;
+}
+
+header nav ul li a{
+    padding: 4rem;
+    color: black;
+    
+}
+header div img{
+    width: 1000px;
+    height: 500px;
+    margin-left: 15%;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.gafas1{
+    display: inline-block;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5cm;
+    margin-top: 40px;
+    background-color: white;
+}
+.textoGafas1{
+    display: flex;
+    flex-direction: column;
+}
+
+.gafas2{
+    display: inline-block;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5cm;
+    margin-top: 40px;
+    background-color: white;
+}
+.textoGafas2{
+    display: flex;
+    flex-direction: column;
+}
+
+.gafas3{
+    display: inline-block;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5cm;
+    margin-top: 40px;
+    background-color: white;
+}
+.textoGafas3{
+    display: flex;
+    flex-direction: column;
+}
+
+.gafas4{
+    margin-top: 60px;
+}
+
+.gafas4 p{
+    color: hotpink;
+}
+
+.gafasFoto2{
+    width: 500px;
+    height: 300px;
+    margin-right: 15px;
+}
+
+.gafasFoto1{
+    margin-right: 15px;
+}
+
+.gafasFoto3{
+    width: 400px;
+    height: 200px;
+    margin-right: 15px;
+}
+
+
+main section{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.gafas1 h2{
+    font-size: 30px;
+    align-content: center;
+
+}
+.gafas2 h2{
+    font-size: 30px;
+    align-content: center;
+}
+.gafas3 h2{
+    font-size: 30px;
+    align-content: center;
+}
+.gafas4 h2{
+    font-size: 30px;
+    align-content: center;
+}
+.gafas4 h4{
+    font-size: 20px;
+    align-content: center;
+}
+
+footer {
+    font-size: 1px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 60px;
+}
